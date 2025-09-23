@@ -3,18 +3,7 @@ import 'package:gsheets/gsheets.dart';
 class UserSheetsApi {
   static const _credentials = r'''
   {
-  "type": "service_account",
-  "project_id": "gsheets-469308",
-  "private_key_id": "7380420842af5c90118093b4529c7c95b5a9494c",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDKqFfLFRvpk8Fx\nPNmeWZKL+LhbHKfQfQTnpM35LDeXmdEIM0CAI2WX/jmTVkcMHKJgdQCJXXp8vjOZ\nHxj+QoYsw/wmTK889KtJxedzsA0mzw/rmuZSix1LzFiXrZ6PjxEmagJPFpgXbAib\n7tAeegyJ4BYPEQYPdgA/ymJS1E5ZdQAucuTNJZCB4wsjqOWZL2AVceyK/yZWKKFp\nen/cwiNqe1erQAfvulfV7OKiroLDPgBPjDO2nUjdWRzmcfHSqit+iFzKGBhYNzfm\nTklBPpoLaNVLBRcyX71TmEtksXJCYiyfprNdSMCq8beMcWMjayfm4n0BKQabE4rW\nsvJjfB3lAgMBAAECggEAIEiA89EBCUyIXEmdQSRzu+h7Nchy0zuXNG+EgFUS5guS\nyQOhGsiIvpW5BkeQOdW16De7RiamBIkoHxRdHuPqC+eMm21L3SH8x1vHax54ed4y\nYw3h8vRGTnTXCBKYV7YqvTvV8lNfFxwWowCAFtrKdIxF91B27q+VipPq5db8RDOe\nht8QvK49pr2Q7MfxiGcRsyjBkn2DdbKEu3IGvyNS0SXMAUnYDaEwXgDybIi+aSDf\n45o+pmrT0BXefKU3ekokvUxuurNlav2EsvvOlSyHqnFNZZEiYqWo1YZXxnjB7MSZ\n8dtLytkiwD3ECcM1TNl0eZmuQOgKRxVQNU8wnaDEAQKBgQDyO+kxQUjI8X5ZBdmj\nk+2TdeVNdNHjV49E/xzhHDuXtyq6myL/NDLuwJ1TNaWrSmjoHf7eKTRitnaC+vMd\npuKgnz6gRctdUdJLTkgPfgrAcXnYIcGQ+TL73foDU5Hav5bLxPVt+Tt9Fi9QoApF\nY6EpYOYHNKbakl67YOcGd86ARQKBgQDWLKmvui7qwJJpR8S0xUqTSZE2pTTEMN4o\nFqHVQiRp2Y1+4BrX5kNjnD4XPIDTHEIjqGC/qdFm9pYhaSYPOtg9mHFDgIU5ZakA\nlzosAbQ4xKywGDutwbUB67thc2QLgdmIttx8XRCoYMMU78GSqgt7aGjx6P6pNggA\n1I+NcgURIQKBgQDCr9Y3aTIXlsimwiXu69jZWLsoKsj6gIg8uxG595gJ0wR7oG5b\nUNfSvmpz0z1I03BHhrwuUE2zPNU5Znp5jYS99d8+r3nIkheDwPH3yaTYkRuN02ug\nmjkY54qmm8cxWiTXt4BOmC7w1SDIGyjGJlIEUMXwaqfkKhoLXdGwiCAnRQKBgQDU\n+ncHU5siQLuXzBGVPfgJ/YdVEvYk/v98V/04h9yUEg4+E/c9qTJsVMv96WGmDZzL\nvr3u+p1MyXvD379EN90fa39+g8h3qltkRf5IEq24IgQj3QVDpbQtI9EjeE8NjmPX\nKxiY5ycQeaClKkKRaV2fq9Vocq0DccKFqNrT6oWVYQKBgQCG3bZE4MHAkj+fDq+s\nBHHM8NNauejeVVyJJ4rMTRALHS/josMPEDWMrVwMXkBKmVxohTyYmV0Wqn7ITYvz\nTz2MKCGrhVC2TlfGTY1YLaUcGRtQoYzJIfxNgBQjFnwZQ66HySrLJ2Bybp0ILdzU\nrpJRiOc2EOm5FWkM7sUoWFlVnA==\n-----END PRIVATE KEY-----\n",
-  "client_email": "gsheets@gsheets-469308.iam.gserviceaccount.com",
-  "client_id": "110819096079694896355",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gsheets%40gsheets-469308.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+  }
   ''';
 
   static final _spreadSheetId = "1le7SpvOdHCFKvMS9Bjb9HuYEqlapPpHtIaPXxA7pf8s";
@@ -178,3 +167,4 @@ class UserSheetsApi {
     }
   }
 }
+
